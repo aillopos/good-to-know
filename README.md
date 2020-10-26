@@ -54,9 +54,6 @@ e.g.,
 | ---                                               | ---                   |
 | `git push --set-upstream origin <branch_name>`    | `gsup <branch_name>`  |
 
-### Other
-* no username password prompt: use SSH repository address instead of HTTPS
-
 ## IntelliJ / IDEA
 * if something does not work anymore, e.g., dependencies not found, jump-to stops working &rarr; "Invalidate Caches / Restart ..."
 
@@ -69,3 +66,10 @@ add `fs.inotify.max_user_watches = 524288`, then run
 sudo sysctl -p --system
 ```
 Restart IntelliJ.
+
+## Kubectl
+
+* **Field immutable Error** if it's a K8s Job, check if older jobs are deleted
+
+### Other
+* no username password prompt: use SSH repository address instead of HTTPS
