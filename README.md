@@ -71,5 +71,8 @@ Restart IntelliJ.
 
 * **Field immutable Error** if it's a K8s Job, check if older jobs are deleted
 
+## K8s Cluster
+* increase number of nodes: AWS console -> autoscaling groups
+
 ### Other
 * no username password prompt: use SSH repository address instead of HTTPS
