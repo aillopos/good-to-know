@@ -73,6 +73,12 @@ Restart IntelliJ.
 
 ## K8s Cluster
 * increase number of nodes: AWS console -> autoscaling groups
+* talk to cluster-internal endpoint
+```bash
+k run alpine -it --restart=Never --image=alpine -- /bin/sh
+apk --no-cache add curl
+curl -i -X POST 10.0.153.17:8080/heimdall/api/1.0/egw/credentials -u "egw-reu-prod:XXX" -H "Host: prod.reu.rest.homeconnectegw.com" # IP from kdp
+```
 
 ### Other
 * no username password prompt: use SSH repository address instead of HTTPS
