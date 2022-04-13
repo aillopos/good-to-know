@@ -1,0 +1,16 @@
+---
+casks:
+  drone-cli:
+  kubectl:
+  visual-studio-code:
+  karabiner-elements:
+  golang:
+  git-crypt:
+  gnupg:
+  aws-iam-authenticator:
+  derailed/k9s/k9s:
+  iterm:
+  aws-cli:
+  docker:
+  helm:
+  wireshark:
